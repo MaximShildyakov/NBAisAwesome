@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IDN</title>
+    <link rel="stylesheet" href="./styles/style.css" type="text/css">
+</head>
+
+<body>
+    <form method="GET">
+        <!-- <input type="submit" value="Send"> -->
+        <b>Name</b>
+        <input type="text" placeholder="Enter name">
+        <br/><br/>
+        <input type="submit" value="Save"/>
+        <button id="addBtn">One more phone</button>
+        <br/><br/>
+        <span>Phone number</span>
+        <input type="text" name="phone" id="ph" placeholder="Enter phone number" />
+        <span>Phone type</span>
+        <select name="type">
+            <option value="1" selected>Celluar</option>
+            <option value="2">Home</option>
+            <option value="3">Work</option>
+        </select>
+        <span>Priority</span>
+        <input type="radio" name="main"
+            value="1" checked />
+        <button id="button">Elements</button>
+        <p id="out"></p>
+    </form>
+    <!-- <div class="one"></div>
+    <button>сместить квадрат</figure></button> -->
+</body>
+    <script src="./JavaScript/index.js"></script>
+</html>
